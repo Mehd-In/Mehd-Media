@@ -1,0 +1,41 @@
+{
+  "projects": {
+    "default": "mehd-test-lab",
+    "master": "mehd-test-lab",
+    "prod": "mehd-test-lab"
+  },
+  "ci": {
+    "createConfig": {
+      "master": {
+        "env": "production",
+        "firebase": {
+          "apiKey": "AIzaSyBKJcHyHk51KYVFicq4pNVuzChIM-KHAlI",
+          "authDomain": "mehd-test-lab.firebaseapp.com",
+          "databaseURL": "https://mehd-test-lab.firebaseio.com",
+          "projectId": "mehd-test-lab",
+          "storageBucket": "mehd-test-lab.appspot.com"
+        },
+        "reduxFirebase": {
+          "userProfile": "users",
+          "enableLogging": false,
+          "updateProfileOnLogin": false
+        }
+      },
+      "prod": {
+        "env": "production",
+        "firebase": {
+          "apiKey": "AIzaSyBKJcHyHk51KYVFicq4pNVuzChIM-KHAlI",
+          "authDomain": "mehd-test-lab.firebaseapp.com",
+          "databaseURL": "https://mehd-test-lab.firebaseio.com",
+          "projectId": "mehd-test-lab",
+          "storageBucket": "mehd-test-lab.appspot.com"
+        },
+        "reduxFirebase": {
+          "userProfile": "users",
+          "enableLogging": false,
+          "updateProfileOnLogin": false
+        }
+      }
+    }
+  }
+}
